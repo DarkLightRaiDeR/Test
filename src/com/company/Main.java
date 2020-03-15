@@ -15,9 +15,9 @@ class Node {
     public int data;
     public Node prev;
 
-    public Node(int data, Node next) {
+    public Node(int data, Node prev) {
         this.data = data;
-        this.prev = next;
+        this.prev = prev;
     }
 }
 
